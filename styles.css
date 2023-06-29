@@ -1,0 +1,280 @@
+@import url('https://use.typekit.net/gqw0etk.css');
+
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url('../aurora_background.jpg') center/cover no-repeat fixed;
+    overflow-y: scroll;
+    /*overflow-x: scroll;*/
+}
+
+body::-webkit-scrollbar {
+    width: 13px;
+}
+  
+body::-webkit-scrollbar-thumb {
+background-color: #00D6D6;
+border-radius: 4px;
+}
+  
+body::-webkit-scrollbar-track {
+background-color: transparent;
+}
+
+.top-left-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: -1380px;
+    margin-top: 100px;
+}
+
+.top-left-logo .logo {
+    width: 50px; 
+    margin-right: -2px; 
+}
+
+.top-left-logo .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 850;
+    color: #00D6D6;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.center-logo {
+    display: flex;
+    align-items: center;
+    margin-top:15px;
+}
+
+.center-logo .logo {
+    width: 150px; 
+    margin-right: -15px; 
+}
+
+.center-logo .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 850;
+    color: #00D6D6;
+    font-size: 70px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    margin-right:-300px;
+}
+
+.center-logo .slogan {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFF; /* Change the color as needed */
+    font-size: 25px;
+    margin-top: 140px;
+    margin-right: 50px;
+}
+
+.center-logo .slogan .stellar {
+    color: #00D6D6;
+    text-decoration:underline ;
+}
+
+.join-discord-button {
+    margin-top: 10px;
+}
+
+.join-discord-button .join-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #00D6D6;
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.join-discord-button .join-button {
+    background-color: #00D6D6;
+}
+
+.header.nav_list {
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    text-align: right;
+    width: auto;
+    height: 45px;
+}
+
+.top-right-container {
+    position: fixed;
+    margin-top: 50px;
+    margin-right: -1380px;
+    margin-top: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top-right-container .dropbtn {
+    padding: 12px 24px;
+    background-color: rgba(255, 255, 255, 0.00); 
+    color: #00D6D6;    
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+
+}
+
+.top-right-container .dropbtn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    z-index: 1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dropdown-content a {
+    font-family: 'Source Sans Pro', sans-serif;
+    float: none;
+    color: #00D6D6;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+
+  }
+
+.top-right-container:hover .dropdown-content {
+    display: block;
+}
+
+.login-image {
+    width: 1000px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+.join-discord-button {
+    margin-top: 20px;
+}
+
+.join-discord-button .join-button {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #00D6D6;
+    color: #FFF;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.join-discord-button .join-button {
+    background-color: #00D6D6;
+}
+
+#about {
+    height: 100vh; /* Set the height of the section to 100% of the viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-full {
+    text-align: center;
+}
+
+h1.display-1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFF; 
+    font-size: 40px;
+    padding: 400px
+}
+
+
+[data-aos="fade-up"] {
+    opacity: 0; /* Initially hide the section */
+}
+
+[data-aos="fade-up"].aos-animate {
+    opacity: 1;
+    transition: opacity 15s ease-in-out;
+}
+
+.subhead {
+    margin-bottom: -300px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00D6D6; 
+    font-size: 22px;
+    padding: -100px;
+    text-decoration: underline
+}
+
+.features-target-section {
+    margin-bottom: 600px;
+}
+
+.features-1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFF; 
+    font-size: 40px;
+    margin-bottom: -650px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+  
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+  
+.feature-item .feature-logo {
+    width: 100px;
+    margin-bottom: -50px;
+    position: relative;
+    display: block
+}
+
+.feature-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #00D6D6;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+  
+.feature-description {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+
+}
+  
