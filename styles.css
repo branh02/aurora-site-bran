@@ -208,7 +208,7 @@ h1.display-1 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #FFF; 
     font-size: 40px;
-    padding: 400px
+    padding: 0px
 }
 
 
@@ -222,7 +222,7 @@ h1.display-1 {
 }
 
 .subhead {
-    margin-bottom: -300px;
+    margin-bottom: 0px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #00D6D6; 
     font-size: 22px;
@@ -246,6 +246,7 @@ h1.display-1 {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     justify-items: center;
+    margin-bottom: 200px;
 }
   
 .feature-item {
@@ -253,15 +254,25 @@ h1.display-1 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 300px;
+    justify-items: center;
+    margin-bottom: 0px;
 }
 
   
-.feature-item .feature-logo {
+.feature-logo {
     width: 100px;
-    margin-bottom: -50px;
+    margin-bottom: 150px;
     position: relative;
-    display: block
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-img {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .feature-title {
@@ -275,6 +286,5 @@ h1.display-1 {
     font-family: 'Source Sans Pro', sans-serif;
     color: #FFF;
     font-size: 18px;
-
 }
   
