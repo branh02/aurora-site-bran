@@ -19,3 +19,8 @@ $(document).ready(function() {
     nextArrow: '<button type="button" class="slick-next">Next</button>'
   });
 });
+
+
+function centralizeContent() {
+  document.body.classList.add('centered-content');
+}

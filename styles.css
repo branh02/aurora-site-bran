@@ -1,6 +1,7 @@
 @import url('https://use.typekit.net/gqw0etk.css');
 
 
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -237,6 +238,13 @@ h1.display-1 {
     transition: opacity 15s ease-in-out;
 }
 
+body.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .subhead {
     margin-bottom: 0px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -247,7 +255,11 @@ h1.display-1 {
 }
 
 .features-target-section {
-    margin-bottom: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .features-1 {
@@ -258,7 +270,7 @@ h1.display-1 {
 }
 
 .features-grid {
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
     justify-items: center;
@@ -296,12 +308,21 @@ h1.display-1 {
     color: #00D6D6;
     font-size: 26px;
     margin-bottom: 20px;
+    text-align: center;
 }
   
 .feature-description {
     font-family: 'Source Sans Pro', sans-serif;
     color: #FFF;
     font-size: 18px;
+}
+
+.faq-target-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 .slider {
@@ -341,25 +362,6 @@ h5 {
     opacity: 0;
 }
 
-#data-answer {
-    background: rgba(255, 255, 255, 0.00);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: bold;
-    color: #00D6D6;
-    font-size: 26px;
-    padding: 16px 32px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
 #data-answer :hover{
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
@@ -367,26 +369,21 @@ h5 {
     color: #00D6D6;
     justify-content: center;
     align-items: center;
-    font-style: bold
 }
 
 #data-answer {
-    background:  rgba(255, 255, 255, 0.00);
+    background: rgba(255, 255, 255, 0.00);
     display: flex;
     justify-content: center;
-    font-style: bold;
     align-items: center;
-    border-radius: 10px;
     text-align: center;
     font-family: 'Source Sans Pro', sans-serif;
     color: #00D6D6;
     font-size: 26px;
     padding: 16px 32px;
     position: absolute;
-    top: 0;
-    left: 0;
     opacity: 0;
-    transition: opacity 0.3s;
+    font-weight: 600
 }
 
 .slide:hover #data-answer {
@@ -394,13 +391,7 @@ h5 {
 }
 
 .slide:hover #data-answer p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: normal;
-    text-align: center;
-    color: #00D6D6;
-    justify-content: center;
-    align-items: center;
-    font-style: bold
+    margin: 0;
 }
   
 .slick-prev,
@@ -428,4 +419,14 @@ h5 {
 .slick-next {
     right: 0%;
 }
+
+.analytics-target-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0px
+}
+  
 

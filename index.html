@@ -32,10 +32,10 @@
                 <i class="fa fs-caret-down"></i>
             </button>
             <div class="dropdown-content">
-                <a href="#features">Features</a>
-                <a href="#faq">FAQ</a>
-                <a href="#analytics">Analytics</a>
-                <a href="#contactus">Contact Us</a>
+              <a href="#features" onclick="centralizeContent()">Features</a>
+              <a href="#faq" onclick="centralizeContent()">FAQ</a>
+              <a href="#analytics" onclick="centralizeContent()">Analytics</a>
+              <a href="#contactus" onclick="centralizeContent()">Contact Us</a>           
             </div>
         </div>
         <img src="aurora-login.jpg" alt="Login" class="login-image" data-aos="fade-up">
@@ -49,10 +49,10 @@
             </h1>
         </div>
         </section>
-        <section id="features" class="features target-section" data-aos="fade-up">
+        <section class="features-target-section" data-aos="fade-up">
             <div class="row features">
                 <div class="col-full">
-                    <h3 class="subhead">FEATURES</h3>
+                    <h3 id="features" class="subhead">FEATURES</h3>
                     <h1 class="display-1 fade-in">
                         A set of expertly engineered tools that will level up your productivity and empower your success.
                     </h1>                
@@ -88,7 +88,7 @@
             </div>
           </section>
           <section>
-            <section id="faq" class="faq target-section" data-aos="fade-up">
+            <section id="faq" class="faq-target-section" data-aos="fade-up">
                 <div class="row features">
                     <div class="col-full">
                         <h3 class="subhead">FAQs</h3>
@@ -124,10 +124,48 @@
 
                       </div>
                     </div>
-                  </div>
+                </div>
 
             </section>
-          </section>                   
+          </section>     
+          <section>
+            <section id="analytics" class="features-target-section" data-aos="fade-up">
+              <div class="row features">
+                  <div class="col-full">
+                      <h3 id="features" class="subhead">ANALYTICS</h3>
+                      <h1 class="display-1 fade-in">
+                          Humble numbers and statistics from our users who have...
+                      </h1>                
+                  </div>
+              </div>
+            <div class="row features">
+            <div class="col-full">
+              <div class="features-grid">
+                <div class="feature-item" data-aos="fade-up">
+                  <div class="feature-text">
+                    <h4 class="feature-title">GENERATED over 20000+   accounts.</h4>
+                    <p class="feature-description">Creating and storing accounts have never been easier</p>
+                    <img src="analytics.png" class="feature-logo">
+                  </div>  
+                </div>
+                <div class="feature-item" data-aos="fade-up">
+                  <div class="feature-text">
+                    <h4 class="feature-title">TRACKED over 10000+ orders and parcels.</h4>
+                    <p class="feature-description">Your solution for easy and unlimited account generation.</p>
+                    <img src="analytics.png" class="feature-logo">
+                  </div>
+                </div>
+                <div class="feature-item" data-aos="fade-up">
+                  <div class="feature-text">
+                    <h4 class="feature-title">SCRAPED sites 2500+ over times.</h4>
+                    <p class="feature-description">Your solution for easy and unlimited account generation.</p>
+                    <img src="analytics.png" class="feature-logo">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </section>              
         <script src="script.js"></script>
         <script>AOS.init()</script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
