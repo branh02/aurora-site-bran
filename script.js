@@ -24,3 +24,13 @@ $(document).ready(function() {
 function centralizeContent() {
   document.body.classList.add('centered-content');
 }
+
+// Add event listener to the document
+document.addEventListener("DOMContentLoaded", function () {
+  var menuButton = document.getElementById("menuButton");
+  var menuOptions = document.getElementById("menuOptions");
+
+  menuButton.addEventListener("click", toggleMenu);
+  menuOptions.addEventListener("click", toggleMenu);
+});
+

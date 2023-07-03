@@ -121,6 +121,7 @@ background-color: transparent;
     margin-right: -1380px;
     margin-top: 100px;
     font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 .top-right-container .dropbtn {
@@ -428,5 +429,50 @@ h5 {
     min-height: 100vh;
     padding: 0px
 }
-  
 
+.contact-target-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0px
+
+}
+  
+.s-contact {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-align: center;
+    position: relative;
+      
+}
+  
+.s-contact a {
+    color: #fdf2d6;
+}
+  
+.s-contact .grid-overlay {
+    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    border-left: 1px solid rgba(255, 255, 255, 0.12);
+    z-index: 2;
+}
+
+.s-contact .contact-social {
+    width: 23vh;
+}
+
+@media screen and (max-width: 600px) {
+    /* Adjust the styles for smaller screens */
+    .top-left-logo {
+      /* Example: Change the flex direction to column */
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .center-logo {
+      /* Example: Change the flex direction to column */
+      flex-direction: column;
+      align-items: center;
+    }
+  }
